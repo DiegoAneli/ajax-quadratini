@@ -22,9 +22,11 @@ body {
 
 .square {
   float: left;
+  display: flex;
+  justify-content: center;
   width: calc(100% / 6);
   height: calc(100% / 6);
-  color: blue;
+  color: black;
   border-top: 1px solid black;
   border-bottom: 1px solid black;
   border-left: 1px solid black;
@@ -39,9 +41,9 @@ body {
 }
 
 .green {
-  color: green;
+background-color: green;
 }
 
 .yellow {
-  color: yellow;
+  background-color: yellow;
 }

@@ -17,7 +17,7 @@ $(document).ready(function() {
       {
         console.log(data);
 
-        var num = data;
+        var num = data.response;
 
         if (num <= 5) {
           thisSquare.addClass('yellow');
