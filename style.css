@@ -10,13 +10,13 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
-  background-color: red;
+  background-color: darkred;
 }
 
 .container {
   width: 360px;
   height: 360px;
-  background-color: yellow;
+  background-color: antiquewhite;
 
 }
 
@@ -29,10 +29,19 @@ body {
   border-bottom: 1px solid black;
   border-left: 1px solid black;
   border-right: 1px solid black;
-
+  cursor: pointer;
+  align-items: center;
 
 }
 
 .template {
   display: none;
+}
+
+.green {
+  color: green;
+}
+
+.yellow {
+  color: yellow;
 }
